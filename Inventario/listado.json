@@ -1,0 +1,144 @@
+{
+    "higiene": [
+      {
+        "nombre": "confort",
+        "cantidad": "",
+        "num_critico": 6
+      },
+      {
+        "nombre": "pasta de dientes",
+        "cantidad": "",
+        "num_critico": 2
+      },
+      {
+        "nombre": "shampoo",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "jabon",
+        "cantidad": "",
+        "num_critico": 2
+      },
+      {
+        "nombre": "alcohol",
+        "cantidad": "",
+        "num_critico": 1
+      }
+    ],
+    "no perecibles": [
+      {
+        "nombre": "tallarin",
+        "cantidad": "",
+        "num_critico": 3
+      },
+      {
+        "nombre": "arroz",
+        "cantidad": "",
+        "num_critico": 2
+      },
+      {
+        "nombre": "porotos",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "lentejas",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "garbanzos",
+        "cantidad": "",
+        "num_critico": 1
+      }
+    ],
+    "congelados": [
+      {
+        "nombre": "choclo",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "frutilla",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "arvejas",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "carne molida",
+        "cantidad": "",
+        "num_critico": 3
+      },
+      {
+        "nombre": "pescado",
+        "cantidad": "",
+        "num_critico": 2
+      }
+    ],
+    "limpieza": [
+      {
+        "nombre": "cloro",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "lavaplatos",
+        "cantidad": "",
+        "num_critico": 2
+      },
+      {
+        "nombre": "detergente ropa",
+        "cantidad": "",
+        "num_critico": 2
+      },
+      {
+        "nombre": "cif baño",
+        "cantidad": "",
+        "num_critico": 2
+      },
+      {
+        "nombre": "limpia vidrios",
+        "cantidad": "",
+        "num_critico": 1
+      }
+    ],
+    "snacks": [
+      {
+        "nombre": ["choco chips", "donuts", "frac", "bocaditos"],
+        "cantidad": "",
+        "num_critico": 2
+      },
+      {
+        "nombre": ["mani", "pistachos", "nueces", "almendras", "castañas caju"],
+        "cantidad": "",
+        "num_critico": 2
+      }
+    ],
+    "conservas": [
+      {
+        "nombre": "atun",
+        "cantidad": "",
+        "num_critico": 4
+      },
+      {
+        "nombre": "jurel",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "duraznos",
+        "cantidad": "",
+        "num_critico": 1
+      },
+      {
+        "nombre": "choritos",
+        "cantidad": "",
+        "num_critico": 1
+      }
+    ]
+  }

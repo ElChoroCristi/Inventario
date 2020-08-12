@@ -1,7 +1,9 @@
 import json
 
 with open ('inventario/listado.json') as l:
-    listado = json.load(l)
+    listado = json.loads(l.read())
 
-print(listado, indent=2)
-
+cantidad = ''
+for producto in listado:
+    cantidad = input('Ingrese Cantidad')
+print(cantidad)

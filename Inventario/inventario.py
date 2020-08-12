@@ -1,9 +1,6 @@
 import json
 
-with open ('inventario/listado.json') as l:
+with open ('inventario/listado.json', 'r+') as l:
     listado = json.loads(l.read())
 
-cantidad = ''
-for producto in listado:
-    cantidad = input('Ingrese Cantidad')
-print(cantidad)
+print(type(listado))

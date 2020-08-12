@@ -18,4 +18,4 @@ higiene = {'prod_higiene' : { 'pasta_dientes': {
 }}
 
 with open('inventory.json', 'w+') as json_file:
-    json.dump(higiene, json_file)
+    json.dump(higiene, json_file, indent = 4, sort_keys=True,)

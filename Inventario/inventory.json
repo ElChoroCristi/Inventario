@@ -1,1 +1,24 @@
-{"prod_higiene": {"pasta_dientes": {"cantidad": "", "pt_critico": "3", "pedir": false}, "papel_confort": {"cantidad": "", "pt_critico": "6", "pedir": false}, "jabon": {"cantidad": "", "pt_critico": "3", "pedir": false}, "shampoo": {"cantidad": "", "pt_critico": "3", "pedir": false}}}
+{
+    "prod_higiene": {
+        "jabon": {
+            "cantidad": "",
+            "pedir": false,
+            "pt_critico": "3"
+        },
+        "papel_confort": {
+            "cantidad": "",
+            "pedir": false,
+            "pt_critico": "6"
+        },
+        "pasta_dientes": {
+            "cantidad": "",
+            "pedir": false,
+            "pt_critico": "3"
+        },
+        "shampoo": {
+            "cantidad": "",
+            "pedir": false,
+            "pt_critico": "3"
+        }
+    }
+}

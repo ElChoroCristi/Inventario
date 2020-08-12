@@ -1,6 +1,6 @@
 import json
 
-prod_higiene = { 'pasta_dientes': {
+higiene = {'prod_higiene' : { 'pasta_dientes': {
     'cantidad' : "",
     'pt_critico' : '3',
     'pedir' : False},
@@ -15,7 +15,7 @@ prod_higiene = { 'pasta_dientes': {
 'shampoo' : {'cantidad' : "",
     'pt_critico' : '3',
     'pedir' : False},
-}
+}}
 
-with open('inventory.json', 'w') as json_file:
-    json.dump(prod_higiene, json_file)
+with open('inventory.json', 'w+') as json_file:
+    json.dump(higiene, json_file)

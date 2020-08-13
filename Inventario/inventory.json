@@ -2,21 +2,25 @@
     "prod_higiene": {
         "jabon": {
             "cantidad": "",
+            "nombre": "jabon",
             "pedir": false,
             "pt_critico": "3"
         },
         "papel_confort": {
             "cantidad": "",
+            "nombre": "papel_confort",
             "pedir": false,
             "pt_critico": "6"
         },
         "pasta_dientes": {
             "cantidad": "",
+            "nombre": "pasta_dientes",
             "pedir": false,
             "pt_critico": "3"
         },
         "shampoo": {
             "cantidad": "",
+            "nombre": "shampoo",
             "pedir": false,
             "pt_critico": "3"
         }

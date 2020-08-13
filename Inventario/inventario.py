@@ -14,7 +14,7 @@ for i in inv_productos.keys():
         want_input = input("Desea ingresar nueva cantidad? ")
         if want_input.upper() == "SI":
             new_q = int(input("Ingrese nueva cantidad "))
-            print(f"La cantidad de {producto} ha sido actualizada a {new_q}")
+            print(f"La cantidad de {producto} ha sido actualizada a {new_q} unidades")
         else:pass
     else: pass
 

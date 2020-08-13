@@ -4,8 +4,12 @@ import json
 with open('inventario\inventory.json', 'r+') as f:
     inv_productos = json.load(f)
 
-#inv_productos['prod_higiene']["jabon"]["cantidad"] = int(input(f'Ingrese Cantidad de {inv_productos["prod_higiene"]["jabon"]["nombre"]} - '))
-#print(inv_productos["prod_higiene"]["jabon"])
+opcion = str(input("Elegir un Producto "))
 
-for n in inv_productos['prod_higiene']:
-    print(type(n))
+productos = ""
+cantidad = ""
+for i in inv_productos.keys():
+    productos = i
+    if opcion.lower() == productos:
+        print(productos)
+    else: pass
